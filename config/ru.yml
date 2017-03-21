@@ -1,0 +1,11 @@
+url: http://snikitin.me
+title: Блог Сергея Никитина
+description: 'Описание моего блога...'
+author: Sergey Nikitin
+email: snikitin.me@gmail.com
+tagNames:
+  css: CSS
+  html: HTML
+  javascript: JavaScript
+  thoughts: Thoughts
+  tools: Tools

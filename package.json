@@ -1,0 +1,19 @@
+{
+  "name": "example.com",
+  "version": "1.0.0",
+  "private": true,
+  "devDependencies": {
+    "babel-cli": "~6.4.0",
+    "babel-plugin-transform-react-jsx": "~6.7.4",
+    "babel-preset-tamia": "~6.5.0",
+    "chokidar-cli": "~1.2.0",
+    "http-server": "~0.8.5",
+    "fledermaus": "~4.1.0"
+  },
+  "scripts": {
+    "start": "npm run server & npm run watch",
+    "build": "babel-node src",
+    "build:watch": "chokidar templates source src -c 'babel-node src'",
+    "server": "http-server public -p 4242 -o"
+  }
+}
