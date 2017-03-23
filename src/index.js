@@ -22,7 +22,7 @@ let renderTemplate = createTemplateRenderer({
 let documents = loadSourceFiles(options.sourceFolder, options.sourceTypes, {
   renderers: {
     md: renderMarkdown,
-  }
+  },
 });
 
 let pages = generatePages(documents, config, helpers, { jsx: renderTemplate });
