@@ -1,4 +1,0 @@
----
-layout: Index
-pageTitle: 'Test'
----
